@@ -1,10 +1,11 @@
 # Sales-Performance-and-Distribution-Overview
-# Introduction
+# Project Impact
 
-This project demonstrates an end-to-end data analytics workflow using SQL for data modeling and transformation and Power BI for visualization and insights. The objective was to prepare a clean, relational database, integrate it into Power BI, and build an interactive dashboard to analyze sales revenue and quantity performance across countries, channels, quarters, and warehouses.
+Built an end-to-end sales analytics solution by designing a clean relational SQL database and delivering an interactive Power BI dashboard to analyze revenue and quantity performance across countries, channels, time periods, and warehouses. The project enables stakeholders to monitor performance, identify growth opportunities, and optimize market and inventory strategies.
 
-# Objective 
-The goal of this project is to enable stakeholders to:
+# Business Objective
+
+This project was designed to help business stakeholders:
 
 Monitor country-wise and channel-wise sales revenue
 
@@ -14,33 +15,62 @@ Understand warehouse-wise quantity contribution for inventory and logistics plan
 
 Identify top- and bottom-performing countries over multiple years
 
-Support data-driven decisions related to market prioritization and revenue optimization
+Support data-driven market prioritization and revenue optimization
 
-# Description
+# Data & Database Design
 
-The project uses a SQL database as the primary data source. The following steps were performed:
+The project uses a SQL-based relational database as the primary data source.
 
-Designed a relational database by assigning Primary Keys and Foreign Keys
+Data Modeling & Preparation
 
-Cleaned and transformed data by:
+Designed a relational schema by defining:
 
-Changing incorrect data types
+Primary Keys
 
-Handling and filling NULL values 
+Foreign Keys
 
-Imported the cleaned and modeled data into Power BI
+Ensured data integrity and optimized relationships for analysis.
 
-Developed an interactive dashboard with filters and visuals for detailed analysis
+Data Cleaning & Transformation
+
+Corrected incorrect data types
+
+Handled and filled NULL values
+
+Standardized fields to ensure consistency across tables
+
+The cleaned and modeled data was then imported into Power BI for analysis.
+
+# Tools & Technologies
+
+SQL – Data cleaning, transformation, joins, and relational modeling
+
+Power BI – Data modeling, DAX measures, interactive dashboards, and insights
+
+# Dashboard Capabilities
+
+Country-wise sales revenue analysis
+
+Channel-wise revenue contribution comparison
+
+Quarterly revenue trends and seasonality analysis
+
+Warehouse-wise quantity distribution
+
+Identification of top and bottom-performing countries
+
+Interactive filters for year, country, channel, and warehouse
 
 # Key Analysis & Insights
+Overall Sales Performance
 
-Total Sales Revenue: €124.32 million
+Total Sales Revenue: €124.32 million, indicating strong multi-year sales activity.
 
-Country-wise Sales Revenue Analysis:
+Country-Wise Revenue Analysis
 
-Germany emerged as the highest revenue–generating country across all three years
+Germany emerged as the highest revenue–generating country consistently across all three years.
 
-Least revenue–generating countries by year:
+Lowest revenue–generating countries by year:
 
 2014: Bosnia
 
@@ -48,20 +78,32 @@ Least revenue–generating countries by year:
 
 2016: Moldova
 
-Sales Revenue by Distribution Channel:
+This highlights clear regional performance gaps and market prioritization opportunities.
 
-Clear revenue contribution differences observed across channels, supporting channel-level performance evaluation
+Sales by Distribution Channel
 
-Quarterly Sales Analysis:
+Observed clear revenue contribution differences across channels, enabling channel-level performance evaluation and optimization.
 
-Seasonal patterns identified, helping stakeholders assess peak and low-performing quarters
+Quarterly Sales Trends
 
-Warehouse-wise Quantity Contribution:
+Identified seasonal patterns in revenue, helping stakeholders recognize peak and low-performing quarters for better planning and forecasting.
 
-Highlighted warehouses with the highest quantity movement, useful for inventory and supply chain planning
+Warehouse-Wise Quantity Contribution
 
-# Tools & Technologies
+Highlighted warehouses with the highest quantity movement, supporting:
 
-SQL – Data cleaning, transformation, and relational modeling
+Inventory optimization
 
-Power BI – Data visualization, DAX measures, and dashboard creation
+Supply chain and logistics planning
+
+# Business Recommendations
+
+Focus marketing and sales efforts on high-performing countries like Germany to maximize ROI.
+
+Reassess strategies for consistently low-performing markets.
+
+Optimize distribution channels based on revenue contribution.
+
+Use warehouse quantity insights to improve inventory allocation and logistics efficiency.
+
+Leverage seasonal trends for better demand forecasting and planning.
